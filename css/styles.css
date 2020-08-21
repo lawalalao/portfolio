@@ -269,6 +269,20 @@ footer {
   letter-spacing: 0.05em;
   line-height: 0.9em;
 }
+.typing h1 {
+  overflow: hidden;
+  border-right: 2px solid;
+  margin: 0 auto;
+  animation: typing 2.6s steps(30, end);
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
 #lead-content h2 {
   color: #bfbfbf;
   font-weight: 500;
